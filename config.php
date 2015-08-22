@@ -4,13 +4,14 @@
 if(file_exists(dirname(__FILE__) . '/local.config.php')) {
         include(dirname(__FILE__) . '/local.config.php');
 } else {
-        $dbsettings = Array(
-            "server"        => "localhost",     // MySQL server name. (Default: localhost)
-            "user"          => "MySqlUser",              // MySQL username.
-            "pass"          => "MySqlPassword",              // MySQL password.
-            "name"          => "MySqlDatabase",              // MySQL database name.
-            "prefix"        => "dk",            // Prefix for table names. (Default: dk)
-            "secretword"    => "");             // Secret word used when hashing information for cookies.
+    // this is for local testing for remote create a file named local.config.php based on blank.config.php
+    $dbsettings = Array(
+        "server"        => "localhost",     // MySQL server name. (Default: localhost)
+        "user"          => "",              // MySQL username.
+        "pass"          => "",              // MySQL password.
+        "name"          => "",              // MySQL database name.
+        "prefix"        => "dk",            // Prefix for table names. (Default: dk)
+        "secretword"    => "");             // Secret word used when hashing information for cookies.
 }
 
 ?>
