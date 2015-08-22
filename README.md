@@ -16,9 +16,9 @@ however, the best way to make large-scale changes are with a more comprehensive 
 
 ## Installation Instructions
 1. Clone this repository or download a copy from github
-2. Create a new MySQL database to use
-3. Copy 'blank.config.php' to 'local.config.php' and edit the values for your database setup
+2. Create a new MySQL database to use on your server
+3. Copy 'blank.config.php' to 'local.config.php' and edit the values for your database setup (or just edit the values in 'config.php')
 4. Upload the contents of the folder to your site
-5. In your browser, go to the 'install.php' file and follow the instructions
-6. After completing the instructions, delete or rename 'install.php' from your directory for security
+5. In your browser, go to the 'install.php' file and follow the instructions. If your site was 'http://myawesomedomain.com' then visit 'http://myawesomedomain.com/install.php'
+6. After completing the instructions, delete or rename the 'install.php' file from your directory for security
 7. Enjoy the game!
