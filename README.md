@@ -1,7 +1,7 @@
 # dragonwarrior
 The Dragon Knight game engine is an online game system created by Jamin Seven. It is an RPG-style game in which characters explore the map, fight monsters, gain experience and buy items, among other things.
 
-This is the source code a variant of that engine called Dragon Warrior and setup as a Facebook game that you can run yourself.
+This is the source code for a variant of that engine called Dragon Warrior that includes dozens of community created mods and setup as a Facebook game that you can run yourself.
 
 ## History
 The original engine was written in PHP4, with a MySQL database backend. While it was originally envisioned as a medieval/fantasy type game
@@ -10,9 +10,11 @@ All statistics are handled by the database, so all items, monsters, etc., are fu
 however, the best way to make large-scale changes are with a more comprehensive database tool such as phpMyAdmin.
 
 ## System Requirements
-* PHP (4.1 and higher)
-* MySQL
-* zlib compression enabled on your server [optional]
+* Required
+  * PHP (4.1 and higher)
+  * MySQL
+* Optional
+  * zlib compression enabled on your server
 
 ## Installation Instructions
 1. Clone this repository or download a copy from github
